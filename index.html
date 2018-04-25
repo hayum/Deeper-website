@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<body style="overflow-x:hidden">
+<!-- <a id="b"></a>
+<a id="c"></a>
+<a id="r"></a> -->
+
+<div id="Main">
+<div id="but">
+<img  src="photo/button2.png">
+
+  <nav>
+     <ul>
+      <li style="background-image:url('photo/p.jpg');  "><a style="color: #000;" href="">Plants</a></li>
+      <li style="background-image:url('photo/o.jpg');"><a href="#o">Surface</a></li>
+      <li style="background-image:url('photo/a.jpg');"><a href="#a">Topsoil</a></li>
+      <li style="background-image:url('photo/b.jpg');"><a href="#b">Subsoil</a></li>
+      <li style="background-image:url('photo/c.jpg');"><a href="#c">Parentrock</a></li>
+      <li style="background-image:url('photo/r.jpg');"><a  style="color: #000;" href="#r">Bedrock</a></li>
+    </ul>
+  </nav>
+</div>
+
+<img src="photo/cusor1.png" id="cusor">
+ <a id="alink" href="#"><img style=" position:fixed; width:8%; left:14%;top:4vh;z-index:500;" src="photo/pollu3.png" class="pollu" onClick="change()"></a>
+
+
+
+ <div class="layer" id="p">
+    <h1 style="color:#000;top: 70%; left: 10%;z-index:500;">Dig Deeper</h1>
+    <h2 style="color:#000;top: 81%; left: 10%; z-index:500;">Explore soil layers with the spider~</h2>
+     <img id="bee"  src="photo/bee.png">
+    
+     <div id="hid">No!!!<br>Please!!!!</div>
+     
+    <img id="plants" style="left:30%;" src="photo/t0.jpg">
+ </div>
+
+
+
+
+<div class="layer" id="o">
+
+<img class="run" style="width:10%; left:50%;top:45%;" src="photo/bug.png">
+<img class="sca" style="width:10%; left:70%;top:70%;" src="photo/earthworm.png">
+<img style="width:12%; left:18%;top:42%;" src="photo/leaves4.png">
+<img id="leave" style="width:12%; left:18%;top:42%;" src="photo/leaves.png">
+
+<img style="width:8%; left:30%;top:70%;" src="photo/7star.png">
+
+  <h1 style="left: 38%;">Surface Layers</h1>
+  <h2>O horizon</h2>
+  <div class="pa" >Surficial organic deposit with litter layer of plant residues in relatively non-decomposed form.</div>
+  <div id="hi">No!!!<br>Please!!!!</div>
+</div>
+
+
+
+   <div class="layer"  id="a">
+   
+   <img style="width:15%; left:10%;top:60%;" src="photo/deadbug.png">
+   <img class="op" id="db" style="width:15%; left:10%;top:60%;" src="photo/bug.png">
+   <img id="sh" style="width:15%; left:15%;top:45%;" src="photo/soul.png">
+   <img class="sca" style="width:10%; left:30%;top:40%;" src="photo/earthworm3.png">
+   <!-- <img style="width:8%; left:30%;top:30%;" src="photo/7star.png"> -->
+   <img class="op" style="width:10%; left:60%;top:45%;" src="photo/leaves2.png">
+   <img class="op" style="width:6%; left:70%;top:50%;" src="photo/leaves3.png">
+     <h1 style="left:43%;">Topsoil</h1>
+     <h2 >A horizon</h2>
+     <div class="pa">Organics mixed with mineral matter.    </div>
+     
+    
+   </div>
+
+
+
+
+   <div class="layer"  id="b">
+   <img style="width:30%; left:10%;top:50%;" src="photo/sub2.png">
+   <img style="width:30%; left:60%;top:60%;" src="photo/sub.png">
+   <img style="width:20%; left:40%;top:50%;" src="photo/sub.png">
+    <h1 style="left:43%;">Subsoil</h1>
+    <h2>B horizon</h2>
+    <div class="pa">Compounds draining from above accumulate.</div>
+  </div>
+
+
+
+
+
+  <div class="layer" id="c">
+  <img style="width:30%; left:68%;top:50%;" src="photo/stone.png">
+  <img style="width:30%; left:40%;top:50%;" src="photo/stone.png">
+  <img style="width:30%; left:12%;top:50%;" src="photo/stone.png">
+    <img style="width:30%; left:0%;top:50%;" src="photo/stone.png">
+    <h1>Parent Rock</h1>
+    <h2>C horizon</h2>
+    <div class="pa">The parent material, large unbroken rocks, more soluble compounds .</div>
+  </div>
+
+
+
+   <div class="layer" id="r">
+     <h1 style="left:42%;">Bedrock</h1>
+     <h2 >R horizon</h2>
+     <div class="pa">Partially weathered bedrock, continuous masses of hard rock that cannot be excavated by hand</div>
+   </div>
+
+
+
+
+</div>
+<script  src="js/main.js"></script>
+ <script src="js/cusor.js"></script> 
+</body>
+</html>
